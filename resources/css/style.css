@@ -11,6 +11,10 @@ html{
 
 }
 
+a{
+  color: Aquamarine;
+}
+
 /* Headder Styles */
 .header{
   max-width: 1000px;
@@ -24,9 +28,7 @@ html{
   font-size: 45px;
   margin-bottom: 40px;
 }
-.header a{
-  color: Aquamarine;
-}
+
 
 /* Video Section */
 .video{
@@ -54,4 +56,21 @@ html{
     color: #fff;
     margin-bottom: 40px;
 
+  }
+
+  /* Footer */
+  .footer{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .footer img{
+    margin-top: 30px;
+  }
+  .copy{
+    color: #fff;
+    margin: 20px 0;
+    
+    color: grey;
   }
