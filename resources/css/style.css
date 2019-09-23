@@ -7,6 +7,8 @@
 
 html{
   background: black;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 /* Headder Styles */
@@ -15,12 +17,41 @@ html{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-top: 40px;
 }
 .header h1{
   color: #fff;
-  font-size: 35px;
+  font-size: 45px;
   margin-bottom: 40px;
 }
 .header a{
   color: Aquamarine;
 }
+
+/* Video Section */
+.video{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Travel Section */
+  .travel{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .travel h2{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .travel p{
+    color: #fff;
+    margin-bottom: 40px;
+
+  }
